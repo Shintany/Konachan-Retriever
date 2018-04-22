@@ -43,6 +43,8 @@ class Progression(tk.Frame):
         self.color = color
 
 def create_directory(_path):
+    if not os.path.exists('data/'):
+        os.makedirs('data/')
     if not os.path.exists(_path):
         #print ('Creating directory...')
         os.makedirs(_path)
