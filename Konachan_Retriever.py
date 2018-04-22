@@ -21,7 +21,7 @@ class MainApplication(tk.Frame):
         self.header_image = PIL.ImageTk.PhotoImage(file=r'image/Konachan_Retriever_header.gif')
         canvas = tk.Canvas(parent, width=640, height = 180,bg=self.mainFrame_color)
         canvas.pack(side='top')
-        canvas.create_image(320,0, anchor = 'n',image=self.header_image)
+        canvas.create_image(310,0, anchor = 'n',image=self.header_image)
 
         ####### STRING VARS #######
 
